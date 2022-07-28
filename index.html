@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Emanuel e Mathias</title>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<style type="text/css">
+
+			body{
+
+				background-color: white;
+				margin: 0;
+				font-family: poppins,sans-serif;
+				color: #cccccc;
+			}
+
+			header{
+
+				width: 100%;
+				height: 610px;
+				margin: 0;
+				background-image: url("imagens/violao1.jpg");
+				background-size: cover;
+			}
+
+			h1 {
+
+				font-size: 40px;
+			}
+
+			.menu {
+
+				list-style: none;
+				text-align: center;
+				background-color: #0000006a;
+				margin: 0;
+				padding: 30px;
+
+
+			}
+
+
+			.menu li{
+
+				list-style: none;
+				display: inline-block;
+				font-size: 22px;
+
+			}
+
+			.menu li a{
+
+				text-decoration: none;
+				color: white;
+				padding-right: 45px;
+				padding-left: 45px;
+				padding-bottom: 10px;
+				padding-top: 10px;
+
+			}
+
+			.menu li a:hover {
+
+				transition: 0.6s;
+				color: #fec110;
+			}
+
+
+			.logo {
+
+				text-align: center;
+				color: white;
+				margin: 0;
+				padding: 0;
+				transform: translateY(50%);
+				font-family: linden-hill;
+			}
+
+
+			.logo #R {
+
+				font-size: 85px;
+				border: white solid 3px;
+				border-radius: 3px;
+				padding: 20px;
+				margin: auto;
+				max-width: 80px;
+			}
+
+			.logo #nome {
+
+				font-size: 43px;
+				margin: 0;
+				margin-top: 10px;
+			}
+
+			.logo #funcao {
+
+				margin-top: -10px;
+				font-size: 22px;
+			}
+
+			.sobre {
+
+				background-color: #303131;
+				color: #cccccc;
+				display: inline-block;
+				text-align: center;
+				padding: 100px;
+			}
+
+			.textsobre {
+				
+				display: inline-block;
+				max-width: 60%;
+				padding-left: 40px;
+				text-align: left;
+				line-height: 28px;
+
+			}
+
+			.textsobre p {
+
+				font-size: 16px;
+			}
+
+			.imgsobre {
+
+				width: 300px;
+				border-radius: 50%;
+				border: #ccc solid 1px;
+			}
+
+			.videos {
+
+
+				background-color: #2b2c2c;
+				width: 100%;
+				padding: 50px;
+				text-align: center;
+				display: inline-block;
+				box-sizing: border-box;
+			}
+
+			.videos div {
+
+				max-width: 50%;
+				text-align: center;
+				display: inline-block;
+				padding-top: 40px;
+			}
+
+			.videos video {
+
+				width: 500px;
+				height: 275px;
+				padding: 0px;
+				margin: 30px;
+				border: #cccccc solid 2px;
+			}
+
+			.videoleft {
+
+				float: left;
+			}
+
+			.videoright {
+
+				float: right;
+			}
+
+			footer {
+
+				background-color: #303131;
+				padding: 10px;
+				text-align: center;
+			}
+
+			.sociais ul {
+
+				list-style: none;
+			}
+
+			.sociais .fa {
+				  padding: 10px;
+				  font-size: 30px;
+				  width: 30px;
+				  text-align: center;
+				  text-decoration: none;
+				  margin: 5px 2px;
+				  border-radius: 50%;
+				  background: #282828;
+				  color: white;
+				  transition: all 0.4s linear;
+			}
+
+			.sociais .fa:hover {
+
+				transition: 0.4s;
+				transition-timing-function: linear;
+				background: #fec110;
+			}
+
+			@media only screen and (max-device-width: 480px){
+
+				.textsobre {
+
+					text-align: center;
+					padding: 0;
+					display: block;
+					margin: auto;
+
+				}
+
+				.imgsobre {
+
+					width: 400px;
+				}
+
+				.videos {
+
+				background-color: #2b2c2c;
+				padding: 0px;
+				font-size: 22px;
+
+			}
+
+				.videos div {
+
+				max-width: 100%;
+				margin: auto;
+			}
+
+				.videoleft {
+
+				float: none;
+			}
+
+				.videoright {
+
+				float: none;
+			}
+
+				h1 {
+
+				font-size: 50px;
+			}
+
+
+			}
+
+		</style>
+	</head>
+	<body>
+
+		<header>
+				<nav>
+					<ul class="menu">
+						<li><a href="">Home</a></li>
+
+						<li><a href="#sobre">Sobre</a></li>
+
+						<li><a href="#videos">Videos</a></li>
+
+						<li><a href="cartao-digital/cartao-digital.html" target="blank">Contatos</a></li>
+
+						<li class="botaowsp"><a href="https://api.whatsapp.com/send?phone=5521986104228&text=Olá,%20gostaria%20de%20fazer%20um%20orçamento%20com%20você%20a%20respeito%20dos%20seus%20serviços%20de%20musico." target="blank"><i class="fa fa-whatsapp"></i> Whatsapp</a></li>
+					</ul>
+				</nav>
+				
+				<div class="logo">
+					
+					<p id="R">R</p>
+					<p id="nome">Emanuel & Mathias</p>
+					<P id="funcao"><sup>__________________</sup> Voz e Violão <sup>__________________</sup></P>
+
+				</div>
+
+		</header>
+
+		<main>
+			<section id="sobre" class="sobre">
+				<div class="borderSobre">
+					<img src="imagens/imagem.jpg" class="imgsobre">
+					<div class="textsobre">
+						<h1>Sobre </h1>
+						<p>
+							<strong>Rosto</strong> é um site que tem como objetivo ajudar ao pessoal a encontrar o melhor instrumento para o seu estilo de vida.
+						</p>
+					</div>
+				</div>
+			</section>
+
+			<section id="videos" class="videos">
+
+				<h1>Eventos Já Realizados</h1>
+				
+				<div>
+					<h3>Eventos</h3>
+					<video class="videoright" controls src="videos/">
+						Evento
+					</video>
+				</div>
+
+			</section>
+
+		</main>
+
+		<footer>
+			<section class="sociais">
+				<h1>Siga-me nas redes sociais</h1>
+				<ul>
+					<li>
+						<a href="https://www.facebook.com/" target="blank" class="fa fa-facebook">
+						</a>
+						
+						<a href="https://twitter.com/" target="blank" class="fa fa-twitter"></a>
+
+						<a href="https://www.instagram.com/" target="blank" class="fa fa-instagram"></a>
+
+						<a href="https://api.whatsapp.com/." target="blank" class="fa fa-whatsapp"></a>
+
+					</li>
+				</ul>
+			</section>
+		</footer>
+
+
+
+	</body>
+</html>

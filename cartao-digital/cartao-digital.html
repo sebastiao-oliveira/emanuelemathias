@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Contato </title>
+		<meta charset="utf-8">
+		<style type="text/css">
+
+			body{
+
+				margin: auto;
+			}
+
+			#main {
+
+				width: 100%;
+				background-image: url("../imagens/violao1.jpg");
+				padding: 33px;
+				box-sizing: border-box;
+				background-repeat: no-repeat;
+				background-size: cover;
+
+			}
+
+			#conteudo {
+				max-width: 350px;
+				margin: auto;
+				text-align: center;
+			}
+			
+			#imagem-rosto{
+
+				width: 200px;
+				height: 200px;
+				background-image: url("imagem-rosto.jpg");
+				background-size: cover;
+				border-radius: 50%;
+				border: 1px solid white;
+				margin: auto;
+				margin-top: 31px;
+				margin-bottom: 40px;
+			}
+
+			.botao{
+
+				margin: ;
+				max-width: 300px;
+				padding: 10px;
+				margin: auto;
+				border: 1px solid white;
+				border-radius: 30px;
+				background-color: orange;
+				text-shadow: red 0 0 0.5em;
+				box-shadow: red 0 0 0.5em;
+				text-align: center;
+				margin-top: 20px;
+				color: white;
+				font-size: 26px;
+				font-family: 'IBM Plex Sans',sans-serif;
+				font-weight: bold;
+				letter-spacing: 3px;
+				transition: all 0.4s linear;
+
+			}
+
+			.botao:hover {
+
+				background-color: transparent;
+				color: ;
+				border: 1px solid white;
+				text-shadow: #fec110 0 0 0.5em;
+			}
+
+			a{
+				text-decoration: none;
+			}
+
+			@media only screen and (max-device-width: 480px){
+
+				#main {
+
+					background-image: url("../imagens/violao1-device.jpg");
+				}
+
+				#conteudo {
+
+					max-width: 100%;
+					margin: auto;
+					text-align: center;
+
+				}
+
+				#imagem-rosto{
+
+					width: 450px;
+					height: 450px;
+					background-image: url("imagem.jpg");
+					background-size: cover;
+					border-radius: 50%;
+					border: 1px solid white;
+					margin: auto;
+					margin-top: 31px;
+					margin-bottom: 40px;
+				}
+
+				.botao {
+
+					max-width: 80%;
+					padding: 50px;
+					margin: 50px;
+					font-size: 70px;
+					border-radius: 150px;
+				}
+
+			}
+
+
+		</style>
+	</head>
+	<body>
+		<div id="main">
+			<div id="conteudo">
+				<div id="imagem-rosto"></div>
+
+				<a href="https://api.whatsapp.com/" target="blank">
+					<div class="botao">WhatsApp</div>
+				</a>
+				<a href="https://www.instagram.com/" target="blank">
+					<div class="botao">Instagram</div>
+				</a>
+				<a href="https://www.facebook.com/" target="blank">
+					<div class="botao">Facebook</div>
+				</a>
+				<a href="../index.html" target="blank">
+					<div class="botao">Meu Site</div>
+				</a>
+				<a href="https://twitter.com/" target="blank">
+					<div class="botao">Twitter</div>
+				</a>
+			</div>
+		</div>
+
+	</body>
+</html>
